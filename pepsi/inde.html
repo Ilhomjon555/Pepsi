@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    .nav{
+        background-color: #0025ff;
+        padding:10px 80px;
+        align-items: center;
+        display: flex;
+        justify-content:space-between;
+    }
+    .left{
+        align-items: center;
+        display: flex;
+    }
+    .left a{
+        margin: 0 40px;
+        color: white;
+        font-weight: 800;
+    }
+    .right a:hover{
+        color: #0025ff;
+        transition: .3s;
+        font-weight: 800;
+        background-color: white;
+    }
+    .right a{
+        margin: 0 40px;
+        color: white;
+        transition: .3s;
+        border: 2px solid whitesmoke;
+        padding: 4px 20px;
+        border-radius: 30px;
+        font-weight: 800;
+    }
+    .left img{
+        width: 60px;
+    }
+    .v1{
+        width: 100%;
+    }
+    .text{
+        background-color: black;
+        text-align: center;
+        align-items: center;
+        padding: 60px;
+        color: white;
+    }
+.text *{
+    color: white;
+    font-weight: 900;
+}
+.text h1{
+    line-height: 40px;
+    font-size: 70px;
+}
+.text h2{
+    font-size: 45px;
+}
+.text a{
+    font-size: 45px;
+    padding: 20px ;
+    background-color: #0025ff;
+    display: inline-block;
+    margin-top: 50px;
+}
+.imgs img{
+    width: 100%;
+}
+.imgs2{
+    background-color: black;
+padding: 10px;
+text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0025ff;
+    width: 88.5%;
+    overflow: hidden;
+    height: 201px;
+    margin: auto;
+}
+.imgs2 h1{
+    line-height: 40px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #0025ff;
+    padding: 20px;
+}
+.flex img{
+    width: 220px;
+    height: auto;
+}
+.box{
+    width: 220px;
+    height: 220px;
+    height: auto;
+    overflow: hidden;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.flex .box img{
+    width: 220px;
+    overflow: hidden;
+
+    height: auto;
+    transition:  .3s ;
+cursor: pointer;
+}
+.flex .box img:hover{
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(7deg);
+    transition:  .3s ;
+
+}
+.log{
+
+    margin-right: 140px;
+}
+.imh{
+
+    width: 100px;
+}
+.footr{
+    padding: 100px 60px;
+    background-color: #0025ff;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.textlar{
+    margin: 0 40px;
+}
+.textlar i{
+    font-size: 30px;
+    color: white;
+    margin: 0 15px;
+
+}
+.textlar i:hover{
+    color: rgb(233, 231, 231);
+
+    cursor: pointer;
+
+}
+.textlar h3{
+    font-weight: 900;
+    color: white;
+    font-size: 17px;
+}
+.textlar h3:hover{
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(233, 231, 231);
+    font-size: 17px;
+}
+</style>
+<body>
+    <div class="kata">
+        <div class="container">
+            <div class="nav">
+                <div class="left">
+                    <img class="im1" src="./p1.png" alt="">
+                    <a href="">VIEVPRODUCT</a>
+                    <a href="">#PEPSI125</a>
+                    <a href="">CONTACT US</a>
+                </div>
+                <div class="right">
+                    <a href="">Buy pepsi products </a>
+                    
+                </div>
+            </div>
+            <div class="video">
+                <video class="v1" controls="" controlslist="nodownload noremoteplayback" class="hero__video" kind="captions" type="video/mp4" src="https://www.pepsi.com/en-us/refresh082123/media/PEPSI_2023_PR_Sizzle_1920px_trimmed.mp4" poster="https://www.pepsi.com/en-us/refresh082123/media/LoadVideo_1920.png" autoplay="true" loop="true" playsinline="true" muted="true"></video>
+            </div>
+            <div class="text">
+                <h1>
+                    CELEBRATING 125 YEARS
+                </h1>
+                <h2>
+                    OF PEPSI FOR 125 DAYS.
+                </h2>
+                <a href="">FOLLOW ALONG</a>
+            </div>
+            <div class="imgs">
+                <img src="./p2.png" alt="">
+            </div>
+            <div class="video">
+                <video  class="v1" controls="" controlslist="nodownload noremoteplayback" class="other__video" kind="captions" type="video/mp4" src="https://www.pepsi.com/en-us/refresh082123/media/Titan_TR_Digital_30_PETD3091000H_CreativeX_sm.mp4" poster="https://www.pepsi.com/en-us/refresh082123/media/titan_vid.png" autoplay="true" loop="true" playsinline="true" muted="true"></video>
+            </div>
+            <div class="imgs2">
+                <h1>
+                    STAY ON THE PULSE. FOLLOW PEPSI.
+                </h1>
+                <div class="flex">
+                    <div class="box">
+                    <img src="1.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="2.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="3.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="4.png" alt="">
+                                </div>
+                                <div class="box">
+                                    <img src="5.png" alt="">
+                                    </div>
+                                    <div class="box">
+                                        <img src="6.png" alt="">
+                                        </div>
+                  
+                </div>
+            </div>
+            <div class="footr">
+                <div class="flex2">
+                    <div class="log">
+                        <img class="imh" src="./p1.png" alt="">
+                    </div>
+                    <div class="textlar">
+                        <h3>CONTACT US</h3>
+                        <h3>TERMS & CONDITIONS</h3>
+                        <h3>PRIVACY POLICY</h3>
+                    </div>
+                    <div class="textlar">
+                        <h3>COPYRIGHT</h3>
+                        <h3>PRODUCT FACTS</h3>
+                        <h3>STORE LOCATOR</h3>
+                    </div>
+                    <div class="textlar">
+                        <h3>SERVE PEPSI</h3>
+                        <h3>ABOUT OUR ADS</h3>
+                        <h3>CAREERS</h3>
+                    </div>
+                    <div class="textlar">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
